@@ -30,17 +30,18 @@ dns:
     - https://139.224.112.177/dns-query
     - https://162.14.13.12/dns-query
 proxies:
-  - {name: 🇰🇷 甲骨文 N, server: m.misapp.top, port: 60886, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sztjvws, ws-headers: {Host: me.nimen.ml}}
-  - {name: 🇰🇷 甲骨文 Q, server: ms.nimen.ml, port: 443, type: vmess, uuid: af10791e-806c-46d9-8bf6-7c1bd7a3a8e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /3d714fc223e/, ws-headers: {Host: ms.nimen.ml}}
-  - {name: 🇯🇵 日本 U, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: 70396943-998c-e94d-4689-06b01e04dfc0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ynqivws, ws-headers: {Host: magsk.eu.org}}
-  - {name: 🇺🇸 洛杉矶 G, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /f601134/, ws-headers: {Host: nimen.tk}}
-  - {name: 🇺🇸 洛杉矶 O, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dauuvws, ws-headers: {Host: pushplus.eu.org}}
-  - {name: 🇺🇸 达拉斯 G, server: dgddns.floatcloud.net, port: 
+  - {name: 🇰🇷 甲骨文 N, server: s.misapp.top, port: 31552, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sztjvws, ws-headers: {Host: me.nimen.ml}}
+  - {name: 🇰🇷 甲骨文 Q, server: m.misapp.top, port: 60886, type: vmess, uuid: af10791e-806c-46d9-8bf6-7c1bd7a3a8e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /3d714fc223e/, ws-headers: {Host: ms.nimen.ml}}
+  - {name: 🇯🇵 日本 U, server: m.misapp.top, port: 60886, type: vmess, uuid: 70396943-998c-e94d-4689-06b01e04dfc0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ynqivws, ws-headers: {Host: magsk.eu.org}}
+  - {name: 🇺🇸 洛杉矶 G, server: s.misapp.top, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /f601134/, ws-headers: {Host: nimen.tk}}
+  - {name: 🇺🇸 洛杉矶 O, server: s.misapp.top, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dauuvws, ws-headers: {Host: pushplus.eu.org}}
+  - {name: 🇺🇸 达拉斯 G, server: s.misapp.top, port: 
   31552, type: vmess, uuid: f68bdfd7-4124-4113-8205-69af0f945d73, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /0ca241/, ws-headers: {Host: m.misapp.ml}}
-  - {name: 🇸🇬 新加坡 S, server: m.misapp.top, port: 60886, udp: true, type: trojan, password: 5d00ef9b-3c76-c18d-4362-8a9692f44572, sni: magsko.eu.org&alpn=http1.1, skip-cert-verify: true}
-  - {name: 🇺🇸 Heroku U, server: 104.22.64.0, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: misapp.tk}}
-  - {name: 🇺🇸 圣何塞, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: 53028666-dd4f-4c49-ac27-f6cc9c4cc126, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /555574e4/, ws-headers: {Host: misapp.ml}}
-  - {name: 🇫🇷 星尘, server: m.misapp.top, port: 60886, type: vmess, uuid: b89e571b-0aba-fbe8-05b1-ed8fc2cd14c8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xijovws, ws-headers: {Host: clou.eu.org}}
+  - {name: 🇸🇬 新加坡 S, type: vless, server: 47.241.76.51, port: 443, uuid: 5d00ef9b-3c76-c18d-4362-8a9692f44572, udp: true, tls: true, flow: xtls-rprx-direct, host: magsko.eu.org }
+  - {name: 🇺🇸 Heroku U, server: dgddns.floatcloud.net, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: misapp.tk}}
+  - {name: 🇺🇸 圣何塞, server: s.misapp.top, port: 31552, type: vmess, uuid: 53028666-dd4f-4c49-ac27-f6cc9c4cc126, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /555574e4/, ws-headers: {Host: misapp.ml}}
+  - {name: 🇫🇷 星尘, server: 47.241.76.51, port: 443, type: vmess, uuid: b89e571b-0aba-fbe8-05b1-ed8fc2cd14c8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xijovws, ws-headers: {Host: clou.eu.org}}
+proxy-groups:
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20242,4 +20243,6 @@ rules:
  - DOMAIN-KEYWORD,aria2,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
+
 
