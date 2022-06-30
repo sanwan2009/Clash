@@ -54,7 +54,7 @@ proxies:
   - {name: 🇸🇬 新加坡 S, server: 20.24.78.232, port: 443, type: vmess, uuid: 5611da5d-7e1e-906b-d3c9-23725f8536dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /szulvws, ws-headers: {Host: magsko.eu.org}}
   - {name: 🇺🇸 Heroku U, server: 111.19.167.92, port: 443, type: vmess, uuid: 6d806487-2d26-4636-98b6-9b85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: heroku.misapp.workers.dev}}
   - {name: 🇺🇸 圣何塞, server: 159.138.130.126, port: 443, type: vmess, uuid: 53028666-dd4f-4c49-ac27-f6cc9c4cc126, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /555574e4/, ws-headers: {Host: misapp.ml}}
-  - {name: 🇰🇷 星云, type: vless, server: 20.24.78.232, port: 443, uuid: 5611da5d-7e1e-906b-d3c9-23725f8536dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, servername: magsko.eu.org, ws-opts: {path: /szulws, headers: {Host: magsko.eu.org}}, udp: true}
+  - {name: 🇰🇷 星云, type: vmess, server: 20.24.78.232, port: 443, uuid: 5611da5d-7e1e-906b-d3c9-23725f8536dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, servername: magsko.eu.org, ws-opts: {path: /szulws, headers: {Host: magsko.eu.org}}, udp: true}
   - {name: 🇭🇰 香港, server: s.misapp.top, port: 8449, type: vmess, uuid: fad77477-7bee-7c70-9df1-b4409d9134ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tsulvws, headers: {Host: misapp.eu.org}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
